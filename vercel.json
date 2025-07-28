@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/.clerk/:match*",
+      "destination": "/api/clerk/:match*"
+    },
+    {
+      "source": "/.well-known/clerk/:match*",
+      "destination": "/api/clerk/:match*"
+    }
+  ]
+}
